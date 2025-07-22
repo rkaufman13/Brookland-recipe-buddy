@@ -6,6 +6,8 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style-custom.css?v=' | append: site.github.build_revision | relative_url }}">
+   
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -21,7 +23,6 @@
 
     {% for post in site.posts %}
 
-        
           <h1 class="post-title">
             {% if post.external-url %}
               <a class="post-link" href="{{ post.external-url }}">{{ post.title | escape }} &rarr;</a>
@@ -35,16 +36,19 @@
               • <a href="{{ post.url | relative_url }}">Permalink</a>
             {% endif %}
           </p>
-        
-
+          <section class="recipeFrontMatter">
+      
+            <div class="cookTime">
+                <div>
+                  <span>Prep time: {{post.prep_time}}</span><span>Cook time: {{post.cook_time}}</span><span>Total time: {{post.total_time}}</span>
+                </div>
+            </div>
+            <div class="source">Originally from: <a href="{{post.source_url}}">{{post.source_site}}</a></div>
+            <p>Submitted by: {{post.submitter}}</p></section>
+        {{post.description}} Serves: {{post.servings}}
         <div class="post-content">
-          {{ post.excerpt }}
+          {{ post.content }}
         </div>
-        {% if post.content contains site.excerpt_separator %}
-          <p class="post-continue">
-            <a href="{{ post.url | relative_url }}">Read on &rarr;</a>
-          </p>
-        {% endif %}
       
     {% endfor %}
   
