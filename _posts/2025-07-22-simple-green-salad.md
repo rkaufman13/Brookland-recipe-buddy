@@ -3,9 +3,9 @@ layout: post
 title:  Simple Green Salad
 source_site: Love and Lemons
 source_url: https://www.loveandlemons.com/green-salad-recipe/
-prep_time: 15 minutes
-cook_time: 14 minutes
-total_time: 29 minutes
+prep_time: 15 
+cook_time: 14 
+total_time: 29
 submitter: Rachel
 servings: 4 servings
 description:  This simple green salad is light, refreshing, and delicious! It's a perfect side salad, as it pairs well with almost anything.

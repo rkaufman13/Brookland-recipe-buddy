@@ -3,9 +3,9 @@ layout: post
 title:  Vegan Jalapeño Poppers
 source_site: Minimalist Baker
 source_url: https://minimalistbaker.com/vegan-jalapeno-poppers/
-prep_time: 10 minutes
-cook_time: 20 minutes
-total_time: 30 minutes
+prep_time: 10 
+cook_time: 20 
+total_time: 30 
 submitter: Unknown
 servings: 6 servings
 description:  Vegan, gluten-free baked jalapeño poppers with tons of flavor, cheesiness, and the perfect crispy top. Less than 10 ingredients and 30 minutes required.

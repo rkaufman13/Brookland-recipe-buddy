@@ -40,12 +40,19 @@
       
             <div class="cookTime">
                 <div>
-                  <span>Prep time: {{post.prep_time}}</span><span>Cook time: {{post.cook_time}}</span><span>Total time: {{post.total_time}}</span>
+                  {%if post.prep_time%}
+                  <span>Prep time: {{post.prep_time}} minutes</span>
+                  {%endif%} 
+                  {%if post.cook_time%}<span>Cook time: {{post.cook_time}} minutes</span>
+                  {%endif%}
+                {%if post.total_time%}<span>Total time: {{post.total_time}} minutes</span>
+                {%endif%}
                 </div>
             </div>
             <div class="source">Originally from: <a href="{{post.source_url}}">{{post.source_site}}</a></div>
             <p>Submitted by: {{post.submitter}}</p></section>
-        {{post.description}} Serves: {{post.servings}}
+        {{post.description}}
+        <p>Serves: {{post.servings}}</p>
         <div class="post-content">
           {{ post.content }}
         </div>

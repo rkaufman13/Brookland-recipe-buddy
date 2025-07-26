@@ -6,15 +6,21 @@
     <section>
         <h1>{{page.title}}</h1>
         <section class="recipeFrontMatter">
-            <div class="cookTime">
+            <div class="cookTime"> 
                 <div>
-                  <span>Prep time: {{page.prep_time}}</span><span>Cook time: {{page.cook_time}}</span><span>Total time: {{page.total_time}}</span>
+                    {% if page.prep_time %}
+                  <span>Prep time: {{page.prep_time}} minutes</span>
+                  {% endif %}
+                  {%if page.cook_time %}<span>Cook time: {{page.cook_time}} minutes</span>
+                  {% endif %}
+                  {% if page.total_time %}<span>Total time: {{page.total_time}} minutes</span>
+                  {% endif %}
                 </div>
             </div>
             <div class="source">Originally from: <a href="{{page.source_url}}">{{page.source_site}}</a></div>
             <p>Submitted by: {{page.submitter}}</p></div>
         </section>
-        {{page.description}} Serves: {{page.servings}}
+        {{page.description}}<p> Serves: {{page.servings}}</p>
         {{page.content}}
 </section>
     </body>

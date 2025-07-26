@@ -3,9 +3,9 @@ layout: post
 title:  The Best Vegan Lasagna
 source_site: Nora Cooks
 source_url: https://www.noracooks.com/best-vegan-lasagna/
-prep_time: 25 minutes
-cook_time: 60 minutes
-total_time: 85 minutes
+prep_time: 25 
+cook_time: 60 
+total_time: 85 
 submitter: Unknown
 servings: 8 servings
 description:  I don’t say this lightly… This is the BEST and EASIEST vegan lasagna recipe! Layered with a rich marinara, creamy ricotta, spinach, noodles and topped with ooey-gooey vegan mozzarella cheese. No need to pre-cook the noodles!
