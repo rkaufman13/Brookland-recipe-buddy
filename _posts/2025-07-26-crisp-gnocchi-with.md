@@ -3,15 +3,9 @@ layout: post
 title:  Crisp Gnocchi With Brussels Sprouts and Brown Butter
 source_site: NYT Cooking
 source_url: https://cooking.nytimes.com/recipes/1020453-crisp-gnocchi-with-brussels-sprouts-and-brown-butter
-  {% if prep_time %}
 prep_time:  minutes
-  {% endif %}
-  {% if cook_time %}
 cook_time:  minutes
-  {% endif %}
-  {% if total_time %}
 total_time: 20 minutes
-  {% endif %}
 submitter: Unknown
 servings: 4 servings
 description:  For a fantastic meal that can be ready in 20 minutes, toss together seared gnocchi and sautéed brussels sprouts with lemon zest, red-pepper flakes and brown butter. The key to this recipe is how you cook the store-bought gnocchi: No need to boil. Just sear them until they are crisp and golden on the outside, and their insides will stay chewy. The resulting texture is reminiscent of fried dough. Shelf-stable and refrigerated gnocchi will both work here, but the shelf-stable ones do crisp up a bit better.

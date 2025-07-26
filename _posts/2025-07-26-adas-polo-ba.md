@@ -3,15 +3,9 @@ layout: post
 title:  Adas Polo ba Khorma (Persian Lentil Rice With Dates)
 source_site: NYT Cooking
 source_url: https://cooking.nytimes.com/recipes/1025151-adas-polo-ba-khorma-persian-lentil-rice-with-dates
-  {% if prep_time %}
 prep_time: 10 minutes
-  {% endif %}
-  {% if cook_time %}
 cook_time: 35 minutes
-  {% endif %}
-  {% if total_time %}
 total_time: 45 minutes
-  {% endif %}
 submitter: Unknown
 servings: 8 servings
 description:  Lentils and rice scented with warm spices and strewn with fried onions is a classic Persian dish with infinite variations. This minimalist take, from Nasim Alikhani, the owner of Sofreh restaurant in Prospect Heights, Brooklyn, keeps things quick and simple, and uses just a few pantry-friendly ingredients. The lentils and rice are cooked together in the same pot, then layered with a mixture of caramelized onions and plump, sweet dates, as well as chopped fresh herbs for brightness. A dollop of yogurt on top adds a tart and creamy touch. Feel free to riff on this basic recipe, adding nuts for crunch, stirring in other spices like cardamom, ginger and saffron, and substituting the likes of raisins, dried apricots or dried cranberries for the dates. At Sofreh, the dish is finished with a dash of rosewater and melted butter for extra richness and perfume.
