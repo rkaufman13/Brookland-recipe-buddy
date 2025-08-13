@@ -3,9 +3,9 @@ layout: post
 title:  Healthy Taco Salad
 source_site: Love and Lemons
 source_url: https://www.loveandlemons.com/taco-salad-recipe/
-prep_time: 15 minutes
-cook_time: 10 minutes
-total_time: 25 minutes
+prep_time: 15 
+cook_time: 10 
+total_time: 25
 submitter: Rachel
 servings: 2 servings
 description:  This fresh, easy taco salad recipe makes a filling lunch or fun dinner. Prep components ahead of time and store them separately for quick assembly! Gluten-free and vegan.
