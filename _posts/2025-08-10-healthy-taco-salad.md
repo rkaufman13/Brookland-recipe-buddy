@@ -12,7 +12,7 @@ cook_time: 10 minutes
   {% if total_time %}
 total_time: 25 minutes
   {% endif %}
-submitter: "Rachel
+submitter: Rachel
 servings: 2 servings
 description:  This fresh, easy taco salad recipe makes a filling lunch or fun dinner. Prep components ahead of time and store them separately for quick assembly! Gluten-free and vegan.
 
