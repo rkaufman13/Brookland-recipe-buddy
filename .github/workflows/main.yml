@@ -37,6 +37,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      contents: write
     steps:
       - name: Deploy to gh-pages branch
         id: deployment
